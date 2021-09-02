@@ -21,6 +21,7 @@ namespace ConsoleApp1
             Console.WriteLine("Length of line_two :" + line_Two);
 
             Console.WriteLine(line_One.Equals(line_Two));
+            Console.WriteLine(line_One.CompareTo(line_Two)); 
 
         }
     }
